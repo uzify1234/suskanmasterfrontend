@@ -1,0 +1,60 @@
+.dashboarditems
+{
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.dashboarditems .newrow
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.dashboarditems .eachdashboarditem 
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboarditems .eachdashboarditem .content
+{
+    width: 210px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #143943;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dashboarditems .eachdashboarditem .content:hover
+{
+    cursor: pointer;
+    border: 2px solid #eab64a;
+}
+.dashboarditems .eachdashboarditem .content .allcontent
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboarditems .eachdashboarditem .content h4
+{
+    text-align: center;
+}
+.dashboarditems .eachdashboarditem .content img
+{
+    height: 40px;
+    width: auto;
+    margin-right: 20px;
+}

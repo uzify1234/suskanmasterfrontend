@@ -1,0 +1,22 @@
+.detailedfinancialplan h3
+{
+    margin: 20px;
+}
+.detailedfinancialplan p
+{
+    padding: 10px;
+}
+.detailedfinancialplan p ol li
+{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.detailedfinancialplan button
+{
+    background-color: #143943;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: none;
+    margin-left: 30px;
+}

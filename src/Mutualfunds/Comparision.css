@@ -1,0 +1,124 @@
+.cpouter
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    overflow: scroll;
+    z-index: 1010;
+    border: 6px solid #141D1D;
+}
+.cpouter .compareview
+{
+    border: none;
+}
+.compareviewseperate
+{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+   position: static;
+    overflow: scroll;
+    min-height: auto;
+    margin-bottom: 20px;
+    border: none;
+}
+.compareviewseperate .btnsrow
+{
+    display: flex;
+    justify-content: space-between;
+}
+.compareviewseperate .btnsrow button ,.compareviewseperate .btnsrow .cbtn
+{
+    border-radius: 5px;
+    font-size: 1.0rem;
+    padding: 10px;
+    background-color: #141D1D;
+    color: white;
+    text-decoration: none;
+}
+
+ .viewsholder .view1
+{
+    overflow: scroll;
+    margin-top: 2vh;
+    display: flex;
+    scrollbar-color: #141D1D #141D1D !important;
+}
+ .viewsholder .view1::-webkit-scrollbar {
+    width: 100%;
+    height: 10px;
+    background: #141D1D;
+}
+
+ .viewsholder .view1::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+
+    background: #f0f0f0;
+   
+}
+
+ .viewsholder .view1::-webkit-scrollbar-corner {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+}
+
+ .viewsholder .view1 .eachthing
+{
+    padding: 10px;
+    min-width: 50%;
+}
+ .viewsholder .view1 .onething
+{
+    min-width: 100%;
+}
+
+ .viewsholder .view1 .eachthing h3
+{
+    text-align: center;
+    background-color: #141D1D;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+}
+
+.cpouter .table-scroll
+{
+    height: auto;
+}
+
+.reportssection .innerreportssection h4
+{
+    text-align: left;
+}
+.reportssection .innerreportssection .upper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reportssection .innerreportssection .upper img
+{
+    height: 150px;
+    width: auto;
+}
+.reportssection .innerreportssection #fundstable h4, .reportssection .innerreportssection #fundstable th,.reportssection .innerreportssection #fundstable td
+{
+    font-size: 0.7rem !important;
+}
+.reportssection button
+{
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.reportssection .innerreportssection #fundstable thead th {
+    background-color: #f0f0f0;
+    color: black;
+    font-weight: bolder !important;
+    font-size: 0.75rem !important;
+}

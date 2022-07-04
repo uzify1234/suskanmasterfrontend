@@ -1,0 +1,53 @@
+.gamesoftware .downloads
+{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 9vw;
+    
+}
+.gamesoftware .downloads .eachdownloads
+{
+    width: 27%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    border: 2px solid #143943;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamesoftware .downloads .eachdownloads a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    /* border: 2px solid #143943; */
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    
+}
+.gamesoftware .downloads .eachdownloads h3
+{
+    color: #143943;
+    text-decoration: none;
+    font-size: 1rem;
+    height: 40px;
+    text-align: center;
+}
+.gamesoftware .downloads .eachdownloads img
+{
+    height: 100px;
+    width: auto;
+}
+.gamesoftware .modalcontent
+{
+    display: flex;
+    flex-direction: row;
+}

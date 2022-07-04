@@ -1,0 +1,438 @@
+
+.wholecover
+{
+    overflow: hidden;
+}
+.wholecover::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+    
+    background: #f0f0f0;
+}
+
+.view {
+    margin: auto;
+    width: 200vw;
+
+  }
+  
+  .wrapper {
+    /* position: relative; */
+    /* overflow: auto; */
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow-x: scroll;
+
+  }
+  .fixed {
+    position: absolute;
+    background: #aaa;
+}
+  
+  .wholecover .sticky-col ,  .lowerview .sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+  }
+  
+  .wholecover.first-col ,   .lowerview .first-col {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    left: 0px;
+  }
+  .lowerview table tbody .first-col {
+      background-color: white;
+      font-size: 0.8rem;
+  }
+  
+  .wholecover .second-col {
+    width: 650px;
+    min-width: 650px;
+    /* max-width: 550px; */
+    left: 100px;
+  }
+
+.wholecover::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+
+    background: #141D1D;
+   
+}
+
+.wholecover::-webkit-scrollbar-corner {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+}
+
+.upperview
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+
+    background-color: #FFFFFF;
+    /* EAB64A */
+    display: flex;
+    color: #EAB64A;
+    padding: 5px 0px;
+    width: 100vw;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1020;
+    
+}
+.upperview .textinfo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.upperview h4
+{
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #141D1D;
+    margin-bottom: 10px;
+}
+.upperview .second 
+{
+    background-color: #141D1D;
+}
+.upperview .second button
+{
+    padding: 20px;
+    background-color: #141D1D;
+    border: none;
+    /* margin: 5px; */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-right: 2px solid #FFF;
+    height: 50px;
+    color: #FFF;
+}
+.upperview .second .active
+{
+    background-color: #FFF;
+    color: #141D1D;
+}
+.upperview .second button:hover
+{
+    background-color: #FFF;
+    color: #141D1D;
+}
+.upperview .second button:focus
+{
+    outline: none;
+    cursor: pointer;
+}
+
+.upperview .third 
+{
+    background-color: #141D1D;
+    margin-top: 0px;
+    width: 95%;
+    margin-left: 2.5%;
+    
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upperview .third .each
+{
+    display: flex;
+    flex-direction: column;
+}
+.upperview .third button
+{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    margin: 10px;
+    
+    color: #141D1D;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 10px;
+}
+.upperview .third button span
+{
+    background-color: #141D1D;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 7px;
+    
+}
+
+
+.upperview .third button:focus
+{
+    outline: none;
+}
+.upperview .third h4, .upperview .third h5
+{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    margin: 5px;
+    padding: 0px;
+    font-size: 0.8rem;
+}
+
+.upperview .third input , .upperview .third select
+{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #141D1D;
+}
+.upperview .third input:focus, .upperview .third select:focus
+{
+    outline: none;
+}
+.categoryaverages .upperview
+{
+    height: 25vh;
+    
+}
+
+.categoryaverages .upperview .third
+{
+    height: 5vh;
+}
+
+.loadingcontainer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFF;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30vh;
+    z-index: 1020;
+}
+
+.comparebtn
+{
+    position: fixed;
+    bottom: 72px;
+    right: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #141D1D;
+    color: white;
+    border: none;
+    z-index: 1012;
+    border: 2px solid white;
+}
+
+.clearbtn
+{
+    position: fixed;
+    bottom: 72px;
+    right: 180px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #141D1D;
+    color: white;
+    border: none;
+    z-index: 1012;
+    border: 2px solid white;
+}
+
+.compareviewholder
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    min-height: 300vh;
+    background-color: white;
+    z-index: 1035;
+}
+
+.compareview
+{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 0px;
+    min-height: 500vh;
+    height: auto;
+    background-color: white;
+    z-index: 1035;
+    overflow: scroll;
+    border: 3px solid #141D1D;
+    border-radius: 10px;
+    
+
+}
+
+.compareview button
+{
+    background-color: #141D1D;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 1.5rem;
+    z-index: 1020;
+
+}
+.compareview button:focus
+{
+    outline: none;
+}
+
+.compareview h4
+{
+    text-align: center;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+#nodatawarning , #showcount
+{
+    text-align: center;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+#showcount
+{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1rem;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.wholecovermobile
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1040;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+/* .view .wrapper table .heads  {
+
+position: fixed;
+top: 250px;
+left: 0;
+width: 200vw;
+} */
+
+.upperview .table-scroll {
+    position: relative;
+    width:100%;
+    z-index: 1;
+    margin: auto;
+    overflow: auto;
+    height: 100vh;
+  }
+  .upperview .table-scroll table {
+    width: 100%;
+    min-width: 1280px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  .upperview .table-wrap {
+    position: relative;
+  }
+  .upperview .table-scroll th,
+  .upperview .table-scroll td {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background: #fff;
+    vertical-align: top;
+  }
+  .upperview .table-scroll thead th {
+    background: #333;
+    color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  /* safari and ios need the tfoot itself to be position:sticky also */
+  .upperview .table-scroll tfoot,
+  .upperview .table-scroll tfoot th,
+  .upperview .table-scroll tfoot td {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background: #666;
+    color: #fff;
+    z-index:4;
+  }
+  
+  a:focus {
+    /* background: red; */
+  } /* testing links*/
+  
+  .upperview th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: #141D1D;
+  }
+  .upperview thead th:first-child,
+  .upperview tfoot th:first-child {
+    z-index: 5;
+  }
+  .upperview .table-scroll table th
+  {
+      /* margin-top: 10px; */
+  }
+  .upperview .table-scroll table .specialth , .lowerview .table-scroll table .specialth
+  {
+      background-color: white;
+      font-size: 0.7rem;
+  }
+  
+  
+  .notice
+  {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+
+
+@media only screen and (max-width  :768px)  {
+    .wholecovermobile
+    {
+        display: flex;
+    }
+
+    .loadingcontainer
+    {
+        display: none;
+    }
+
+}

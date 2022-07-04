@@ -1,0 +1,33 @@
+
+.howtoconductiap .classroomcontent h2
+{
+    margin-left: 50px; 
+    color: #143943;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.howtoconductiap .classroomcontent h4
+{
+    margin-left: 50px; 
+    color: #143943;
+    width: 100%;
+    margin-top: 10px;
+}
+.howtoconductiap .classroomcontent
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.howtoconductiap .classroomcontent .eachvideo
+{
+    width: 300px;
+    margin: 1.5%;
+}
+.howtoconductiap .classroomcontent .eachvideo iframe
+{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+}

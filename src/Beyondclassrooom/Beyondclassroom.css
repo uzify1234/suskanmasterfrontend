@@ -1,0 +1,33 @@
+
+.beyondclassroom .classroomcontent h2
+{
+    margin-left: 50px; 
+    color: #143943;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.beyondclassroom .classroomcontent h4
+{
+    margin-left: 50px; 
+    color: #143943;
+    width: 100%;
+    margin-top: 10px;
+}
+.beyondclassroom .classroomcontent
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.beyondclassroom .classroomcontent .eachvideo
+{
+    width: 30%;
+    margin: 1.5%;
+}
+.beyondclassroom .classroomcontent .eachvideo iframe
+{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+}
