@@ -22,6 +22,30 @@ function Masterclass() {
              <div className='masterclasses'>
             <div className="allvideos">
                 <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/mTsowLEjD8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/mkW_aUUCTdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/9tqWJy7kKAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/4_NuF-PuH_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/vt9gsAmH5Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/gFC0QOgufjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/AO6yesFAgNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/S2HO6maeqeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="eachvideo">
                 <iframe src="https://www.youtube.com/embed/DAy_wVNMHcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="eachvideo">

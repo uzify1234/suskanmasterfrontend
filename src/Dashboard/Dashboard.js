@@ -77,9 +77,13 @@ function Dashboard() {
     const allvcsdashboarditems4 = [
         {title : "Videos",icon : Video , action : "/videos"},
         {title : "Master Class",icon : Fire , action : "/masterclass"},
+        {title : "FFF Conference Full Videos",icon : Fire , action : "/fffconference"},
         {title : "RVCC Modules",icon : Coin , action : "/rvccmodules"},
         {title : "Beyond Classroom",icon : People , action : "/beyondclassroom"},
-        {title : "How to Conduct IAP",icon : Video , action : "/howtoconductiap"}
+        {title : "How to Conduct IAP",icon : Video , action : "/howtoconductiap"},
+        {title : "Creativity Game",icon : People , action : "/creativitygame"},
+        {title : "Advanced Selling",icon : Video , action : "/advancedselling"},
+        {title : "Asset Allocation Videos",icon : Video , action : "/assetallocationvideos"}
     ]
 
     const allvcsdashboarditems6 = [
@@ -100,7 +104,7 @@ function Dashboard() {
     ]
 
     const onClickedTile = (item) => {
-        if(item.action === "/monthlyreview" || item.action === "/physicalgames" || item.action === "/howtoconductiap" || item.action === "/mutualfundspick" || item.action === "/vgdashboard" || item.action == "/resources" || item.action === "/mutualfundsanalysis" || item.action === "/assetallocation" || item.action === "/videos" || item.action === "/ppts"|| item.action === "/masterclass" || item.action === "/rvccmodules" || item.action === "/templates" || item.action === "/yourstruely" || item.action === "/detailedfinancialplan" || item.action === "/beyondclassroom" || item.action === "/illusiongames" || item.action === "/financialmarketpuzzle" || item.action === "/gamesoftware" || item.action === "/boardandcardgames" || item.action === "/leadershipgames" || item.action === "/nominatedfunds") {
+        if(item.action === "/monthlyreview" || item.action === "/physicalgames" || item.action === "/howtoconductiap" || item.action === "/mutualfundspick" || item.action === "/vgdashboard" || item.action == "/resources" || item.action === "/mutualfundsanalysis" || item.action === "/assetallocation" || item.action === "/videos" || item.action === "/ppts"|| item.action === "/masterclass" || item.action === "/rvccmodules" || item.action === "/templates" || item.action === "/yourstruely" || item.action === "/detailedfinancialplan" || item.action === "/beyondclassroom" || item.action === "/illusiongames" || item.action === "/financialmarketpuzzle" || item.action === "/gamesoftware" || item.action === "/boardandcardgames" || item.action === "/leadershipgames" || item.action === "/nominatedfunds" || item.action === "/fffconference" || item.action === "/creativitygame" || item.action === "/advancedselling" || item.action === "/assetallocationvideos") {
            navigate(item.action);
         }
         if(item.action === "/assetallocation") {

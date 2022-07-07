@@ -27,6 +27,10 @@ import IdleTimer from './Helpers/IdleTimer';
 import { auth } from './Helpers/Firebase';
 import Physicalgames from './Physicalgames/Physicalgames';
 import Howtoconductiap from './Hotoconductiap/Howtoconductiap';
+import FFFConference from './FFFConference/FFFConference';
+import CreativityGame from './CreativityGame/CreativityGame';
+import AdvancedSelling from './AdvancedSelling/AdvancedSelliing';
+import AssetAllocationVideos from './AssetAllocationVideos/AssetAllocationVideos';
 
 
 
@@ -116,6 +120,26 @@ function App() {
           <Route path="/masterclass" caseSensitive={false} element={
           <div className='holder'>
             <Masterclass />
+          </div>
+          } />
+          <Route path="/fffconference" caseSensitive={false} element={
+          <div className='holder'>
+            <FFFConference />
+          </div>
+          } />
+          <Route path="/creativitygame" caseSensitive={false} element={
+          <div className='holder'>
+            <CreativityGame />
+          </div>
+          } />
+          <Route path="/advancedselling" caseSensitive={false} element={
+          <div className='holder'>
+            <AdvancedSelling />
+          </div>
+          } />
+          <Route path="/assetallocationvideos" caseSensitive={false} element={
+          <div className='holder'>
+            <AssetAllocationVideos />
           </div>
           } />
           <Route path="/rvccmodules" caseSensitive={false} element={

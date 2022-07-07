@@ -277,7 +277,7 @@ useEffect(() => {
 
           var removedfinal = final.filter(ekfund => !ekfund.name.toLowerCase().includes("franklin"));
           removedfinal.forEach((fund,index) => {
-            if(fund.name.toLowerCase().includes("icici")) {
+            if(fund.name.toLowerCase().includes("axis")) {
               if(index > 3) {
                 var copy = removedfinal[3];
                 removedfinal[3] = fund;
